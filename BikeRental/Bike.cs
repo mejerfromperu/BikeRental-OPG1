@@ -8,10 +8,10 @@ namespace BikeRental
 {
     public class Bike
     {
-        private int _anskaffelseår;
-        private string _model;
-        private string _stelfarve;
-        private int _stelnummer; 
+        protected int _anskaffelseår;
+        protected string _model;
+        protected string _stelfarve;
+        protected int _stelnummer; 
 
         public int Anskaffelseår
         {
